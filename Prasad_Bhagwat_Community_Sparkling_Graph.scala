@@ -1,6 +1,5 @@
 // Imports required for the program
 import java.io.{File, PrintWriter}
-
 import scala.collection.immutable.ListMap
 import scala.collection.mutable.{ArrayBuffer, HashMap, ListBuffer}
 import org.apache.spark.{SparkConf, SparkContext}
