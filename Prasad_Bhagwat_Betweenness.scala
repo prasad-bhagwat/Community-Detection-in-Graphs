@@ -13,14 +13,14 @@ object Betweenness{
     // Dictionary initializations
     for (user <- user_graph.keys)
     {
-      level_dict             += (user -> Int.MaxValue)
-      num_shortest_path_dict += (user -> 0)
-      parents_dict           += (user -> Set())
+      level_dict                += (user -> Int.MaxValue)
+      num_shortest_path_dict    += (user -> 0)
+      parents_dict              += (user -> Set())
     }
     // Initializing root node's values in all dictionaries
-    level_dict             += (root -> 0)
-    num_shortest_path_dict += (root -> 1)
-    var bfs_queue          = List(root)
+    level_dict                  += (root -> 0)
+    num_shortest_path_dict      += (root -> 1)
+    var bfs_queue               = List(root)
 
     while (bfs_queue.nonEmpty)
     {
