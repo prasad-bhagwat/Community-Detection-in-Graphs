@@ -1,4 +1,4 @@
-Community Detection in a Social Network graph
+Community Detection in graphs
 =====================================================
 
 ### Enviroment versions required:
