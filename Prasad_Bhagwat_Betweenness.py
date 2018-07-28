@@ -75,6 +75,7 @@ def calculate_betweenness(corated_users_dict, root):
 
 # Main Function
 def main():
+    # Recording time taken by the program
     start_time          = time.time()
 
     # Command Line Arguments
