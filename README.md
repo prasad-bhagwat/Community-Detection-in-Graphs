@@ -1,6 +1,7 @@
 Community Detection in graphs
 =====================================================
 
+
 ### Enviroment versions required:
 
 Spark: 2.2.1  
