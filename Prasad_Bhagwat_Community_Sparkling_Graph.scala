@@ -8,6 +8,7 @@ import ml.sparkling.graph.operators.algorithms.community.pscan.PSCAN
 
 
 object Community_Sparkling{
+  
   // Computing BFS for given root node
   def BFS_paths(user_graph: Map[Int, Iterable[Int]], root: Int): (Map[Int, Int], Map[Int, Int], Map[Int, Set[Int]]) = {
     var level_dict              = Map[Int, Int]()
