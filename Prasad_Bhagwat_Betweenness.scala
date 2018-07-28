@@ -5,6 +5,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 
 object Betweenness{
+  
   // Computing BFS for given root node
   def BFS_paths(user_graph: Map[Int, Iterable[Int]], root: Int): (Map[Int, Int], Map[Int, Int], Map[Int, Set[Int]]) = {
     var level_dict              = Map[Int, Int]()
