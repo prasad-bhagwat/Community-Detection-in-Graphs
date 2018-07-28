@@ -140,6 +140,7 @@ def process_partition(edge_list_RDD,
 
 # Main Function
 def main():
+    # Recording time taken by the program
     start_time            = time.time()
 
     # Command Line Arguments
