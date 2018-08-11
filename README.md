@@ -9,7 +9,7 @@ Python: 2.7
 Scala: 2.11
 
 ### Implementation approach:
-Used Girvan-Newman algorithm for calculating edge betweenness for the graph generated from input dataset. I removed the highest betweenness edges from the graph to divide into suitable communities, which reaches the highest modularity.
+Used Girvan-Newman algorithm for calculating edge betweenness for the graph generated from input dataset. I removed the highest betweenness edges from the graph to divide into suitable communities. The final communities are those which gives the highest modularity.
 
 
 ### Dataset used for testing:
