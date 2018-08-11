@@ -8,6 +8,10 @@ Spark: 2.2.1
 Python: 2.7  
 Scala: 2.11
 
+### Implementation approach:
+Used Girvan-Newman algorithm for calculating edge betweenness for the graph generated from input dataset. I removed the highest betweenness edges from the graph to divide into suitable communities, which reaches the highest modularity.
+
+
 ### Dataset used for testing:
 [MovieLens](https://grouplens.org/datasets/movielens/)   
 
